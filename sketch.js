@@ -13,7 +13,7 @@ function setup() {
 	frameRate(frm);
 	//createCanvas(600,600);
 	var cnv = createCanvas(600, 600);
-	cnv.parent('sketch-holder');;
+	cnv.parent('sketch-holder');
 	grnd = new ground();
 	myCar = new car();
 	obs = new obstacle();
