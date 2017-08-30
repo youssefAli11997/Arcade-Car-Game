@@ -9,18 +9,18 @@ var hitStatus;
 var hitStatus2;
 
 function setup() {
-    frm = 400;
-    frameRate(frm);
+	frm = 400;
+	frameRate(frm);
 	//createCanvas(600,600);
-    var cnv = createCanvas(600, 600);
-    cnv.parent('sketch-holder');;
+	var cnv = createCanvas(600, 600);
+	cnv.parent('sketch-holder');;
 	grnd = new ground();
 	myCar = new car();
 	obs = new obstacle();
-    obs2 = new obstacle();
-    gld = new gold();
-    gld2 = new gold();
-    scoreVal = new score();
+	obs2 = new obstacle();
+	gld = new gold();
+	gld2 = new gold();
+	scoreVal = new score();
 }
 
 function draw() {
@@ -33,8 +33,8 @@ function draw() {
 
     scoreVal.show();
 
-	obs.show();
-	obs.update();
+    obs.show();
+    obs.update();
 
     gld.show();
     gld.update();
